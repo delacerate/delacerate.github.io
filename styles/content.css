@@ -1,10 +1,10 @@
 :root {
     --text-color: #c4bbb8;
 
-    --title-color1: #143bbd;
-    --title-color2: #0270d0;
-    --title-color3: #036e89;
-    --title-color4: #154c90;
+    --title-color1: #4EA2B0;
+    --title-color2: #ACD3DA;
+    --title-color3: #6FB4BF;
+    --title-color4: #C3DFE4;
 
     --icon-size: 26px;
 }
@@ -22,10 +22,10 @@
 }
 
 #main-box .profile-pic {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 50%;
-    filter: contrast(70%);
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 40%;
+    filter: contrast(100%);
   }
 
 #main-box .content-block {
