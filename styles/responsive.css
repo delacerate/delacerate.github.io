@@ -1,37 +1,37 @@
 @media (max-width: 900px) {
     #main-box {
-        flex-direction: column;
+      flex-direction: column;
     }
-}
-
-@media (max-width: 900px) and (max-height: 750px) {
+  }
+  
+  @media (max-width: 900px) and (max-height: 750px) {
     :root {
-        --icon-size: 18px;
+      --icon-size: 1.125em; /* equivalent to 18px */
     }
-
+  
     #main-box .profile-pic {
-        width: 0;
+      width: 0;
     }
-
+  
     #main-box .content-block h1 {
-        margin-top: -10px;
+      margin-top: -0.625em; /* equivalent to -10px */
     }
-
+  
     #main-box .content-block p {
-        font-size: 16px;
+      font-size: 1em; /* equivalent to 16px */
     }
-}
-
-@media (min-width: 900px) and (max-height: 750px) {
+  }
+  
+  @media (min-width: 900px) and (max-height: 750px) {
     :root {
-        --icon-size: 18px;
+      --icon-size: 1.125em; /* equivalent to 18px */
     }
-
+  
     #main-box .content-block h1 {
-        margin-top: -10px;
+      margin-top: -0.625em; /* equivalent to -10px */
     }
-
+  
     #main-box .content-block p {
-        font-size: 16px;
+      font-size: 1em; /* equivalent to 16px */
     }
-}
+  }
