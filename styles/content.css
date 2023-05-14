@@ -1,0 +1,129 @@
+:root {
+    --text-color: #c4bbb8;
+
+    --title-color1: #143bbd;
+    --title-color2: #0270d0;
+    --title-color3: #036e89;
+    --title-color4: #154c90;
+
+    --icon-size: 26px;
+}
+
+#main-box {
+    position: absolute;
+    width: var(--box-width);
+    height: var(--box-height);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 5%;
+}
+
+#main-box .profile-pic {
+    border-radius: 50%;
+
+    filter: contrast(70%);
+}
+
+#main-box .content-block {
+    margin-left: 24px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#main-box .content-block h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+
+    background: -webkit-linear-gradient(
+        45deg,
+        var(--title-color1),
+        var(--title-color2),
+        var(--title-color3),
+        var(--title-color4)
+    );
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 15px;
+    text-align: center;
+}
+
+#main-box .content-block p {
+    margin-top: 24px;
+
+    font-family: "Exo", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--text-color);
+
+    margin-top: 15px;
+    text-align: center;
+}
+
+#main-box .content-block .links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 24px;
+}
+
+#main-box .content-block .links #mail {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/envelope.svg") no-repeat center;
+    mask: url("../assets/envelope.svg") no-repeat center;
+}
+
+#main-box .content-block .links #github {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/github.svg") no-repeat center;
+    mask: url("../assets/github.svg") no-repeat center;
+}
+
+#main-box .content-block .links #resume {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/resume.svg") no-repeat center;
+    mask: url("../assets/resume.svg") no-repeat center;
+}
+
+#main-box .content-block .links #linkedin {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/linkedin.svg") no-repeat center;
+    mask: url("../assets/linkedin.svg") no-repeat center;
+}
+
+#main-box .content-block .links #meetup {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/meetup.svg") no-repeat center;
+    mask: url("../assets/meetup.svg") no-repeat center;
+}
+
+#main-box .content-block .links #badges {
+    width: var(--icon-size);
+    height: var(--icon-size);
+
+    background-color: var(--text-color);
+    -webkit-mask: url("../assets/trophy.svg") no-repeat center;
+    mask: url("../assets/trophy.svg") no-repeat center;
+}
