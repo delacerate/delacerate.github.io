@@ -32,9 +32,9 @@
   /* Styles for mobile */
   @media (max-width: 767px) {
     #main-box .profile-pic {
-      max-width: 65%;
-      max-height: 65%;
-      border-radius: 30;
+      max-width: 60%;
+      max-height: 60%;
+      border-radius: 30%;
       filter: none;
     }
   }
