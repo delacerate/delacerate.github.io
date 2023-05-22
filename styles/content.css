@@ -22,8 +22,8 @@
 }
 
 #main-box .profile-pic {
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 70%;
+    max-height: 70%;
     border-radius: 40%;
     filter: contrast(100%);
   }
