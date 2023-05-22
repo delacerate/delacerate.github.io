@@ -1,10 +1,10 @@
 
 
 :root {
-    --bg-color1: #1C2659;
-    --bg-color2: #114960;
-    --bg-color3: #096466;
-    --bg-color4: #86fde8;
+    --bg-color1: #0E1116;
+    --bg-color2: #374A67;
+    --bg-color3: #64A6BD;
+    --bg-color4: #9E7B9B;
 
     --box-width: 80vw;
     --box-height: 80vh;
@@ -67,6 +67,6 @@ body {
     width: var(--box-width);
     height: var(--box-height);
 
-    background: white;
-    opacity: 0.05;
+    background: black;
+    opacity: 0.10;
 }
