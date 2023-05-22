@@ -21,11 +21,22 @@
     padding: 5%;
 }
 
+/* Styles for desktop */
 #main-box .profile-pic {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 75%;
+    max-height: 75%;
     border-radius: 40%;
     filter: contrast(100%);
+  }
+  
+  /* Styles for mobile */
+  @media (max-width: 767px) {
+    #main-box .profile-pic {
+      max-width: 100%;
+      max-height: auto;
+      border-radius: 0;
+      filter: none;
+    }
   }
 
 #main-box .content-block {
