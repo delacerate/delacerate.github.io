@@ -93,15 +93,6 @@
     mask: url("../assets/github.svg") no-repeat center;
 }
 
-#main-box .content-block .links #resume {
-    width: var(--icon-size);
-    height: var(--icon-size);
-
-    background-color: var(--text-color);
-    -webkit-mask: url("../assets/resume.svg") no-repeat center;
-    mask: url("../assets/resume.svg") no-repeat center;
-}
-
 #main-box .content-block .links #linkedin {
     width: var(--icon-size);
     height: var(--icon-size);
